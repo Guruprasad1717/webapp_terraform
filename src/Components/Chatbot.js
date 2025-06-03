@@ -5,7 +5,7 @@ import Send from "./send.jpg";
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([
-    { sender: "bot", text: "Hi! How can I help you?" },
+    { sender: "bot", text: "Hello Guys Welcome to Guruprasad's Chatbot app, Let me know How can I help you?" },
   ]);
   const [input, setInput] = useState("");
   const [customReplies, setCustomReplies] = useState({});
